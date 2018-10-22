@@ -27,7 +27,7 @@ public class Bullet : MonoBehaviour {
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.tag == "target") {
+        if (collision.tag == "target" && GameObject.ReferenceEquals(target,collision.transform.parent.gameObject)) {
             Destroy(collision.transform.parent.gameObject);
             Destroy(this.gameObject);
         }

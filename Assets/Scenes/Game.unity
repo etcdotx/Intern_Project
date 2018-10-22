@@ -834,7 +834,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 395393fc4b7ba984481a9e3339964c1c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  level: 0
+  level: 1
   countEnemy: 6
   minLength: 0
   maxLength: 5
